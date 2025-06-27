@@ -1,0 +1,267 @@
+[{
+    "input_nodes": [
+      {
+        "label": "russet potato",
+        "states": [],
+        "ingredients": [
+          "RUSSET POTATO"
+        ],
+        "container": null
+      },
+      {
+        "label": "canola oil",
+        "states": [],
+        "ingredients": [
+          "CANOLA OIL"
+        ],
+        "container": null
+      },
+      {
+        "label": "montreal steak seasoning",
+        "states": [],
+        "ingredients": [
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      },
+      {
+        "label": "bowl",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "sheet pan",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "knife",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "oven",
+        "states": [
+          "off"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "cut-ingredient",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": [
+          "RUSSET POTATO"
+        ],
+        "container": null
+      },
+      {
+        "label": "russet potato",
+        "states": [
+          "cut"
+        ],
+        "ingredients": [],
+        "container": "bowl"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "bowl",
+        "states": [],
+        "ingredients": [
+          "RUSSET POTATO"
+        ],
+        "container": null
+      },
+      {
+        "label": "canola oil",
+        "states": [],
+        "ingredients": [
+          "CANOLA OIL"
+        ],
+        "container": null
+      },
+      {
+        "label": "sheet pan",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "add-ingredient",
+    "output_nodes": [
+      {
+        "label": "bowl",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO",
+          "CANOLA OIL"
+        ],
+        "container": null
+      },
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO"
+        ],
+        "container": null
+      },
+      {
+        "label": "canola oil",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO"
+        ],
+        "container": null
+      },
+      {
+        "label": "montreal steak seasoning",
+        "states": [],
+        "ingredients": [
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "add-ingredient",
+    "output_nodes": [
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO",
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      },
+      {
+        "label": "montreal steak seasoning",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO",
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      },
+      {
+        "label": "oven",
+        "states": [
+          "off"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "turn-on",
+    "output_nodes": [
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO",
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      },
+      {
+        "label": "oven",
+        "states": [
+          "on"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO",
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      },
+      {
+        "label": "oven",
+        "states": [
+          "on"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "bake",
+    "output_nodes": [
+      {
+        "label": "sheet pan",
+        "states": [
+          "dirty"
+        ],
+        "ingredients": [
+          "RUSSET POTATO",
+          "MONTREAL STEAK SEASONING"
+        ],
+        "container": null
+      },
+      {
+        "label": "oven",
+        "states": [
+          "on"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  }]

@@ -1,0 +1,63 @@
+[{
+    "input_nodes": [
+      {
+        "label": "GREEN BEANS",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "CARROTS",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "SQUASH",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "SQUASH ZUCCHINI",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "pot",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "GREEN BEANS",
+        "states": [],
+        "ingredients": [],
+        "container": "pot"
+      },
+      {
+        "label": "CARROTS",
+        "states": [],
+        "ingredients": [],
+        "container": "pot"
+      },
+      {
+        "label": "SQUASH",
+        "states": [],
+        "ingredients": [],
+        "container": "pot"
+      },
+      {
+        "label": "SQUASH ZUCCHINI",
+        "states": [],
+        "ingredients": [],
+        "container": "pot"
+      }
+    ]
+  }]

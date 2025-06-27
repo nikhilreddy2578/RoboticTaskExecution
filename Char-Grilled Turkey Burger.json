@@ -1,0 +1,365 @@
+[{
+    "input_nodes": [
+      {
+        "label": "cutting board",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "meat",
+        "states": [],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "cutting board",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      },
+      {
+        "label": "meat",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "cutting board",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      },
+      {
+        "label": "cutting board",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "turn-on",
+    "output_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "is cooking"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "is cooking"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "wait",
+    "output_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "is cooked"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "grill",
+        "states": [
+          "is cooked"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      },
+      {
+        "label": "plate",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      },
+      {
+        "label": "grill",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "cup",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "ketchup",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "cup",
+        "states": [
+          "has ketchup"
+        ],
+        "ingredients": [
+          "ketchup"
+        ],
+        "container": null
+      },
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      },
+      {
+        "label": "ketchup",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "cup",
+        "states": [
+          "has ketchup"
+        ],
+        "ingredients": [
+          "ketchup"
+        ],
+        "container": null
+      },
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER"
+        ],
+        "ingredients": [
+          "TURKEY BURGER"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "assemble",
+    "output_nodes": [
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER with ketchup"
+        ],
+        "ingredients": [
+          "TURKEY BURGER",
+          "ketchup"
+        ],
+        "container": null
+      },
+      {
+        "label": "cup",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "bun",
+        "states": [],
+        "ingredients": [
+          "ROLL"
+        ],
+        "container": null
+      },
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER with ketchup"
+        ],
+        "ingredients": [
+          "TURKEY BURGER",
+          "ketchup"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "bun",
+        "states": [],
+        "ingredients": [
+          "ROLL"
+        ],
+        "container": "plate"
+      },
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER with ketchup"
+        ],
+        "ingredients": [
+          "TURKEY BURGER",
+          "ketchup"
+        ],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "bun",
+        "states": [],
+        "ingredients": [
+          "ROLL"
+        ],
+        "container": "plate"
+      },
+      {
+        "label": "plate",
+        "states": [
+          "has TURKEY BURGER with ketchup"
+        ],
+        "ingredients": [
+          "TURKEY BURGER",
+          "ketchup"
+        ],
+        "container": null
+      }
+    ],
+    "motion_node": "assemble",
+    "output_nodes": [
+      {
+        "label": "bun",
+        "states": [
+          "has TURKEY BURGER with ketchup"
+        ],
+        "ingredients": [
+          "ROLL",
+          "TURKEY BURGER",
+          "ketchup"
+        ],
+        "container": "plate"
+      },
+      {
+        "label": "plate",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  }]

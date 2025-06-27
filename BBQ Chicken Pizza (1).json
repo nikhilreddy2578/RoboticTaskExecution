@@ -1,0 +1,361 @@
+[{
+    "input_nodes": [
+      {
+        "label": "stove",
+        "states": [
+          "off"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "switch-on",
+    "output_nodes": [
+      {
+        "label": "stove",
+        "states": [
+          "on"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "place-on",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "on-stove"
+        ],
+        "ingredients": [],
+        "container": "stove"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "water",
+        "states": [
+          "in-container"
+        ],
+        "ingredients": [],
+        "container": "cup"
+      },
+      {
+        "label": "pot",
+        "states": [
+          "on-stove"
+        ],
+        "ingredients": [],
+        "container": "stove"
+      }
+    ],
+    "motion_node": "pour",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "filled-with-water"
+        ],
+        "ingredients": [
+          "water"
+        ],
+        "container": "stove"
+      },
+      {
+        "label": "cup",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "chicken breast",
+        "states": [
+          "whole"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "pot",
+        "states": [
+          "filled-with-water"
+        ],
+        "ingredients": [
+          "water"
+        ],
+        "container": "stove"
+      }
+    ],
+    "motion_node": "add-to-pot",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "filled-with-water-and-chicken"
+        ],
+        "ingredients": [
+          "water",
+          "chicken breast"
+        ],
+        "container": "stove"
+      },
+      {
+        "label": "chicken breast",
+        "states": [
+          "in-pot"
+        ],
+        "ingredients": [],
+        "container": "pot"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "filled-with-water-and-chicken"
+        ],
+        "ingredients": [
+          "water",
+          "chicken breast"
+        ],
+        "container": "stove"
+      }
+    ],
+    "motion_node": "bring-to-boil",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "boiling"
+        ],
+        "ingredients": [
+          "water",
+          "chicken breast"
+        ],
+        "container": "stove"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "boiling"
+        ],
+        "ingredients": [
+          "water",
+          "chicken breast"
+        ],
+        "container": "stove"
+      }
+    ],
+    "motion_node": "simmer",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "simmering"
+        ],
+        "ingredients": [
+          "water",
+          "chicken breast"
+        ],
+        "container": "stove"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "simmering"
+        ],
+        "ingredients": [
+          "water",
+          "chicken breast"
+        ],
+        "container": "stove"
+      }
+    ],
+    "motion_node": "cook",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "cooked-chicken"
+        ],
+        "ingredients": [
+          "water",
+          "cooked-chicken"
+        ],
+        "container": "stove"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "cooked-chicken"
+        ],
+        "ingredients": [
+          "water",
+          "cooked-chicken"
+        ],
+        "container": "stove"
+      }
+    ],
+    "motion_node": "remove-from-heat",
+    "output_nodes": [
+      {
+        "label": "pot",
+        "states": [
+          "cooked-chicken-not-on-heat"
+        ],
+        "ingredients": [
+          "water",
+          "cooked-chicken"
+        ],
+        "container": "stove"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "cutting board",
+        "states": [
+          "empty"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "cooked-chicken",
+        "states": [],
+        "ingredients": [],
+        "container": "pot"
+      }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+      {
+        "label": "cutting board",
+        "states": [],
+        "ingredients": [
+          "cooked-chicken"
+        ],
+        "container": null
+      },
+      {
+        "label": "cooked-chicken",
+        "states": [],
+        "ingredients": [],
+        "container": "cutting board"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "cooked-chicken",
+        "states": [],
+        "ingredients": [],
+        "container": "cutting board"
+      }
+    ],
+    "motion_node": "shred",
+    "output_nodes": [
+      {
+        "label": "cutting board",
+        "states": [],
+        "ingredients": [
+          "shredded-chicken"
+        ],
+        "container": null
+      },
+      {
+        "label": "shredded-chicken",
+        "states": [],
+        "ingredients": [],
+        "container": "cutting board"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "bbq sauce",
+        "states": [
+          "in-container"
+        ],
+        "ingredients": [],
+        "container": null
+      },
+      {
+        "label": "shredded-chicken",
+        "states": [],
+        "ingredients": [],
+        "container": "cutting board"
+      }
+    ],
+    "motion_node": "add-to-chicken",
+    "output_nodes": [
+      {
+        "label": "cutting board",
+        "states": [],
+        "ingredients": [
+          "shredded-chicken-with-bbq-sauce"
+        ],
+        "container": null
+      },
+      {
+        "label": "shredded-chicken-with-bbq-sauce",
+        "states": [],
+        "ingredients": [],
+        "container": "cutting board"
+      }
+    ]
+  },
+  {
+    "input_nodes": [
+      {
+        "label": "pizza dough",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }
+    ],
+    "motion_node": "roll-out",
+    "output_nodes": [
+      {
+        "label": "rolled-out-pizza-dough",
+        "states": [],
+        "ingredients": [],
+        "container": null
+      }]

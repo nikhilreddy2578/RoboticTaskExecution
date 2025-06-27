@@ -1,0 +1,369 @@
+[{
+"input_nodes": [
+        {
+            "label": "cutting board",
+            "states": [
+                "empty"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "chicken breast",
+            "states": [
+                "whole"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "bowl",
+            "states": [
+                "empty"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "orange marmalade",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "chipotle peppers in sauce",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "garlic pepper seasoning",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "dijon mustard",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "coriander",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "cumin",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "garlic",
+            "states": [
+                "whole"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "paprika",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": null
+        }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+        {
+            "label": "cutting board",
+            "states": [
+                "empty"
+            ],
+            "ingredients": [
+                "chicken breast"
+            ],
+            "container": null
+        },
+        {
+            "label": "chicken breast",
+            "states": [
+                "whole"
+            ],
+            "ingredients": [],
+            "container": "cutting board"
+        }
+    ]
+},
+{
+    "input_nodes": [
+        {
+            "label": "cutting board",
+            "states": [
+                "chicken breast"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "knife",
+            "states": [],
+            "ingredients": [],
+            "container": null
+        }
+    ],
+    "motion_node": "cut",
+    "output_nodes": [
+        {
+            "label": "cutting board",
+            "states": [
+                "chicken breast",
+                "clean"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "chicken breast",
+            "states": [
+                "diced"
+            ],
+            "ingredients": [],
+            "container": "cutting board"
+        }
+    ]
+},
+{
+    "input_nodes": [
+        {
+            "label": "bowl",
+            "states": [
+                "empty"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "diced chicken",
+            "states": [],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "orange marmalade",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "chipotle peppers in sauce",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "garlic pepper seasoning",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "dijon mustard",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "coriander",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "cumin",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "paprika",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": null
+        }
+    ],
+    "motion_node": "pick-and-place",
+    "output_nodes": [
+        {
+            "label": "bowl",
+            "states": [
+                "diced chicken",
+                "orange marmalade",
+                "chipotle peppers in sauce",
+                "garlic pepper seasoning",
+                "dijon mustard",
+                "coriander",
+                "cumin",
+                "paprika"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "diced chicken",
+            "states": [],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "orange marmalade",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "chipotle peppers in sauce",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "garlic pepper seasoning",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "dijon mustard",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "coriander",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "cumin",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "paprika",
+            "states": [
+                "ground"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        }
+    ]
+},
+{
+    "input_nodes": [
+        {
+            "label": "bowl",
+            "states": [
+                "diced chicken",
+                "orange marmalade",
+                "chipotle peppers in sauce",
+                "garlic pepper seasoning",
+                "dijon mustard",
+                "coriander",
+                "cumin",
+                "paprika"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "spoon",
+            "states": [],
+            "ingredients": [],
+            "container": null
+        }
+    ],
+    "motion_node": "stir",
+    "output_nodes": [
+        {
+            "label": "bowl",
+            "states": [
+                "diced chicken",
+                "orange marmalade",
+                "chipotle peppers in sauce",
+                "garlic pepper seasoning",
+                "dijon mustard",
+                "coriander",
+                "cumin",
+                "paprika",
+                "mixed"
+            ],
+            "ingredients": [],
+            "container": null
+        },
+        {
+            "label": "diced chicken",
+            "states": [],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "orange marmalade",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        },
+        {
+            "label": "chipotle peppers in sauce",
+            "states": [
+                "sealed"
+            ],
+            "ingredients": [],
+            "container": "bowl"
+        }]

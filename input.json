@@ -1,0 +1,506 @@
+[
+  {
+    "category": "Hub-Home",
+    "menu": [
+        {
+            "dish": "Chipotle Pork with Pineapple Salsa",
+            "ingredients": [
+                "PORK LOIN",
+                "PINEAPPLE",
+                "TOMATO",
+                "ONION",
+                "VEGETABLE OIL BLEND ",
+                "RED BELL PEPPER",
+                "RED WINE VINEGAR",
+                "GREEN PEPPER",
+                "GARLIC",
+                "BROWN SUGAR",
+                "LIME JUICE",
+                "CHIPOTLE PEPPERS IN SAUCE ",
+                "LIME JUICE",
+                "GREEN ONION",
+                "CILANTRO",
+                "GRANULATED SUGAR",
+                "VEGETABLE OIL BLEND ",
+                "SALT"
+            ]
+          },
+
+      {
+        "dish": "Chickpea Panchmael",
+        "ingredients": [
+            "WATER",
+            "BASMATI RICE",
+            "GARBANZO BEANS",
+            "ONION",
+            "RED BELL PEPPER",
+            "SQUASH ZUCCHINI",
+            "TOMATOES",
+            "WATER",
+            "MUSHROOMS",
+            "TOMATO PASTE",
+            "LIME JUICE",
+            "GARLIC",
+            "VEGETABLE OIL BLEND",
+            "CILANTRO",
+            "RED CURRY PASTE",
+            "VEGETABLE BASE",
+            "GINGERROOT",
+            "CUMIN",
+            "SALT",
+            "BLACK PEPPER"
+
+        ]
+      },
+      {
+        "dish": "Seasoned Rice",
+        "ingredients": [
+            "WATER",
+            "WHITE RICE",
+            "VEGETABLE OIL BLEND",
+            "SALT",
+            "BLACK PEPPER"
+        ]
+      },
+      {
+        "dish": "Steamed Broccoli Florets",
+        "ingredients": [
+            "BROCCOLI",
+            "SALT",
+            "BLACK PEPPER",
+            "GARLIC POWDER"
+
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "category": "Grillhouse",
+    "menu": [
+            {
+                "dish": "Nashville-Style Hot Chicken Sandwich",
+                "ingredients": [
+                    "CHICKEN BREAST PATTY",
+              "ROLL",
+              "PICKLE SLICES",
+              "LETTUCE",
+              "VEGETABLE OIL BLEND",
+              "BROWN SUGAR",
+              "CAYENNE PEPPER",
+              "GARLIC POWDER"
+
+                ]
+            },
+            {
+                "dish": "Grilled Herb Chicken Sandwich",
+                "ingredients": [
+                   "CHICKEN BREAST", "ROLL", "ORANGE JUICE", "VEGETABLE OIL BLEND", "GARLIC", "BLACK PEPPER", "DRIED THYME LEAF",
+                  "DRIED BASIL"
+                ]
+            },
+           
+            {
+                "dish": "Char-Grilled Turkey Burger",
+                "ingredients": [
+                   "TURKEY BURGER", "ROLL"
+                ]
+            },
+            {
+                "dish": "Grilled Black Bean Burger",
+                "ingredients": [
+                    "BLACK BEAN VEGGIE BURGER", "ROLL"
+                ]
+            },
+            {
+                "dish": "Hamburger",
+                "ingredients": [
+                    "BEEF PATTY", "ROLL"
+                ]
+            },
+            {
+                "dish": "Dill Pickle Slices",
+                "ingredients": [
+                   "PICKLE SLICES(FRESH CUCUMBERS", "WATER", "SALT", "DISTILLED VINEGAR", "CONTAINS LESS THAN 2% OF DRIED GARLIC",
+                  "CALCIUM CHLORIDE", "SPICE", "SODIUM BENZOATE", "MUSTARD SEED", "DRIED RED PEPPER", "NATURAL FLAVOR", "POLYSORBATE 80"
+                ]
+            },
+            {
+                "dish": "Green Leaf Lettuce",
+                "ingredients": [
+                    "Lettuce"
+                ]
+            },
+            
+            {
+                "dish": "Sliced Tomatoes ",
+                "ingredients": [
+                    "Tomatoes"
+                ]
+            },
+            {
+                "dish": "Crispy Chicken Sandwich",
+                "ingredients": [
+                    "CHICKEN BREAST PATTY", "ROLL"
+                ]
+            },
+            {
+                "dish": "Crispy Shoestring French Fries",
+                "ingredients": [
+                    "FRENCH FRIES  ",
+                  "POTATO STARCH - MODIFIED. CONTAINS 2% OR LESS OF DEXTRIN", "DEXTROSE",
+                  "LEAVENING ",
+                  "PEA FIBER", "PEA PROTEIN", "RICE FLOUR", "SALT", "SODIUM ACID PYROPHOSPHATE ADDED TO MAINTAIN COLOR",
+                  "XANTHAN GUM"
+                ]
+            }
+            
+            
+        ]
+  },
+
+   {
+        "category": "Truebalance",
+        "menu": [
+            {
+                "dish": "Baked Chipotle-Orange Chicken",
+                "ingredients": [
+                    "CHICKEN BREAST",
+              "ORANGE MARMALADE",
+              "TOMATOES",
+              "CHIPOTLE PEPPERS IN SAUCE",
+              "GARLIC PEPPER SEASONING",
+              "DIJON MUSTARD",
+              "CORIANDER",
+              "CUMIN",
+              "GARLIC",
+              "PAPRIKA"
+
+                ]
+            },
+            {
+                "dish": "Baked Potato Wedges",
+                "ingredients": [
+                    "RUSSET POTATO",
+              "CANOLA OIL",
+              "MONTREAL STEAK SEASONING"
+
+                ]
+            },
+            {
+                "dish": "Tomato Chickpea Salad",
+                "ingredients": [
+                    "Diced tomato",
+              "Chickpeas",
+              "Fresh cilantro",
+              "Parsley",
+              "Garlic",
+              "Cumin",
+              "Paprika",
+              "Ginger",
+              "Lemon"
+
+                ]
+            },
+            {
+                "dish": "Vegetable Soup",
+                "ingredients": [
+                    "Green beans",
+              "Corn",
+              "Green cabbage",
+              "Potatoes",
+              "Tomatoes",
+              "Simmered in savory vegetable broth"
+
+                ]
+            },
+            {
+                "dish": "Lemon Cake",
+                "ingredients": [
+                    "RICE FLOUR",
+              "OAT MILK",
+              "GRANULATED SUGAR",
+              "EXTRA VIRGIN OLIVE OIL",
+              "LEMON JUICE",
+              "BAKING POWDER",
+              "POWDERED SUGAR",
+              "VANILLA EXTRACT",
+              "SALT"
+
+                ]
+            },
+            {
+                "dish": "Capri Blend Vegetables",
+                "ingredients": [
+                    "GREEN BEANS",
+              "CARROTS",
+              "SQUASH",
+              "SQUASH ZUCCHINI"
+
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Mto Pasta Bar",
+        "menu": [
+            
+            
+            {
+                "dish": "Sweet Chili Sauce",
+                "ingredients": [
+                    "SWEET CHILI SAUCE"
+                ]
+            },
+            
+            {
+                "dish": "broccoli florets",
+                "ingredients": [
+                    "broccoli florets"
+                ]
+            },
+            {
+                "dish": "Diced Tomatoes",
+                "ingredients": [
+                    "Diced fresh tomatoes"
+                ]
+            },
+            {
+                "dish": "Green Peas",
+                "ingredients": [
+                    "Green peas"
+                ]
+            },
+            {
+                "dish": "Sauteed Onions",
+                "ingredients": [
+                    "Sauteed Onions"
+                ]
+            }
+            
+            
+        ]
+    },
+    {
+        "category": "Slices",
+        "menu": [
+            {
+                "dish": "BBQ Chicken Pizza",
+                "ingredients": [
+                    "ALL PURPOSE FLOUR", "MOZZARELLA CHEESE", "WATER", "CHICKEN BREAST", "ONION", "BARBECUE SAUCE", "PIZZA SAUCE", "VEGETABLE OIL BLEND", "SALT", "GRANULATED SUGAR", "VEGETABLE OIL BLEND", "VEGETABLE OIL BLEND", "YEAST", "MONTREAL STEAK SEASONING", "SALT", "BLACK PEPPER"
+
+                ]
+            },
+            {
+                "dish": "Classic Cheese Pizza",
+                "ingredients": [
+                    "ALL PURPOSE FLOUR",
+                    "MOZZARELLA CHEESE",
+                    "WATER",
+                    "PIZZA SAUCE",
+                    "VEGETABLE OIL BLEND",
+                    "SALT",
+                    "GRANULATED SUGAR",
+                    "YEAST"
+
+                ]
+            },
+            {
+                "dish": "Pepperoni Pizza",
+                "ingredients": [
+                    "ALL PURPOSE FLOUR",
+                    "MOZZARELLA CHEESE",
+                    "WATER",
+                    "PIZZA SAUCE",
+                    "DELI PEPPERONI",
+                    "VEGETABLE OIL BLEND",
+                    "SALT",
+                    "GRANULATED SUGAR",
+                    "YEAST"
+
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Delish",
+        "menu": [
+            {
+                "dish": "Italian Wrap",
+                "ingredients": [
+                    "FLOUR TORTILLA",
+                    "LETTUCE",
+                    "TOMATO",
+                    "CREAMY CAESAR DRESSING",
+                    "HAM",
+                    "GENOA SALAMI",
+                    "PROVOLONE CHEESE",
+                    "ONION"
+
+                ]
+            },
+            {
+                "dish": "Mesquite Potato Chips",
+                "ingredients": [
+                    "POTATO CHIPS",
+                    "BARBECUE SEASONING",
+                    "SALT",
+                    "GRANULATED SUGAR"
+
+                ]
+            },
+            
+            {
+                "dish": "Green Leaf Lettuce",
+                "ingredients": [
+                    "LETTUCE"
+                ]
+            },
+            {
+                "dish": "Sliced Tomatoes",
+                "ingredients": [
+                    "TOMATO"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Central Garden",
+        "menu": [
+            {
+                "dish": "Diced Chicken",
+                "ingredients": [
+                    "Diced roasted fresh chicken breasts and thighs"
+
+                ]
+            },
+            
+            {
+                "dish": "Quinoa & Edamame Salad",
+                "ingredients": [
+                    "CORN KERNALS",
+                    "WATER",
+                    "TOMATO",
+                    "SOYBEAN",
+                    "QUINOA",
+                    "LIME JUICE",
+                    "GREEN ONION",
+                    "CILANTRO",
+                    "GARLIC",
+                    "SALT"
+
+
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Cup Cakes",
+        "menu": [
+            {
+                "dish": "Devil's Food Cupcake",
+                "ingredients": [
+                    "DEVIL'S FOOD CAKE",
+                    "WATER",
+                    "VANILLA ICING"
+
+
+                ]
+            },
+            {
+                "dish": "Raspberry Jell-O® Parfait",
+                "ingredients": [
+                    "WATER",
+                    "GELATIN",
+                    "STRAWBERRY",
+                    "WHIPPED TOPPING",
+                    "WATER"
+
+
+
+                ]
+            },
+            
+            {
+                "dish": "Oatmeal Raisin Cookie",
+                "ingredients": [
+                    "OATMEAL RAISIN COOKIE",
+                    "SUGAR",
+                    "ENRICHED BLEACHED FLOUR",
+                    "MARGARINE",
+                    "PALM OIL",
+                    "WATER",
+                    "SOYBEAN OIL",
+                    "SALT",
+                    "MONO- AND DIGLYCERIDES",
+                    "NATURAL FLAVORS",
+                    "CITRIC ACID",
+                    "VITAMIN A PALMITATE ADDED",
+                    "BETA CAROTENE",
+                    "OATS",
+                    "RAISINS",
+                    "RAISINS",
+                    "SUNFLOWER OIL",
+                    "EGGS",
+                    "MOLASSES",
+                    "DEXTROSE",
+                    "WATER",
+                    "CONTAINS 2% OR LESS OF COCONUT",
+                    "WHEAT STARCH",
+                    "BAKING SODA",
+                    "SALT",
+                    "CINNAMON",
+                    "SOY FLOUR"
+
+
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Slices",
+        "menu": [
+            {
+                "dish": "Soft Beef Taco",
+                "ingredients": [
+                    "GROUND BEEF",
+                    "TORTILLA",
+                    "TOMATO",
+                    "CHEDDAR CHEESE",
+                    "WATER",
+                    "LETTUCE",
+                    "JALAPENO PEPPER",
+                    "TACO SEASONING"
+
+
+                ]
+            },
+            {
+                "dish": "Sofrito Black Beans & Rice",
+                "ingredients": [
+                    "WATER",
+                    "WHITE RICE",
+                    "BLACK BEANS",
+                    "RED BELL PEPPER",
+                    "ONION",
+                    "VEGETABLE OIL BLEND",
+                    "GARLIC",
+                    "VEGETABLE OIL BLEND",
+                    "CILANTRO",
+                    "VEGETABLE BASE",
+                    "ONION"
+
+                ]
+            },
+            {
+                "dish": "Quinoa",
+                "ingredients": [
+                    "WATER",
+                    "QUINOA"
+
+                ]
+            }
+        ]
+    }
+]
